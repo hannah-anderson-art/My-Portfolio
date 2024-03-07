@@ -1,0 +1,889 @@
+body {
+    background-color: F2F2F2;
+    color: black;
+    height: 100%;
+}
+
+/* This is a standard wrapper section.
+It should be placed around all section,
+and the respective Bootstrap containers should go inside */
+.standard-section {
+    /* background-color: #10767C; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+p {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+h2 {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 75px;
+    margin-right: 100px;
+    margin-left: 75px;
+}
+
+#nav-links {
+    display: flex;
+    justify-content: flex-start;
+
+    font-size: 20px;
+}
+
+.nav-link {
+    background-color: #10767C;
+    color: black;
+    text-decoration: none;
+
+    font-family: "yuji-boku", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin-left: 50px;
+}
+
+    #logo-hover-group {
+        display: flex;
+        align-items: center;
+        /* background-color: aliceblue; */
+        color: black;
+    }
+
+    .expanding-box {
+        width: 25px;
+        height: 75px;
+        background-color: #10767C;
+        overflow: hidden;
+        transition: width 0.3s ease, background-image 0.3s ease;
+    }
+
+    .parent-object {
+        position: relative;
+    }
+
+    .standard-padding {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    .left-paragraph {
+        margin-right: 100px;
+    }
+
+    .left-paragraph h2 {
+        margin-bottom: 50px;
+    }
+
+    .right-paragraph {
+        margin-left: 100px;
+    }
+
+    .right-paragraph h2 {
+        margin-bottom: 50px;
+    }
+
+    .expanding-box:hover {
+        width: 75px;
+        opacity: 1;
+        background-image: url('images/profile.JPG');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .expanding-box-2:hover {
+        width: 75px;
+        opacity: 1;
+        background-image: url('images/profile.JPG');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .content {
+        margin-left: 25px;
+    }
+
+    .floating-icon {
+        position: absolute;
+        /* z-index: 9999; */
+        top: 100px;
+        left: 0;
+        opacity: 0;
+        transition: opacity 1s;
+        /* width: 50px; */
+      }
+
+      /* .floating-icon {
+        position: absolute;
+        z-index: 10;
+        top: -20px;
+        right: -20px;
+        width: 100px;
+        height: auto;
+      } */
+
+      
+.center-div {
+    /* background-color: orange; */
+    display: flex;
+    /* height: 600px; */
+
+    justify-content: center;
+    /* align-items: center; */
+    /* padding-bottom: 100px; */
+}    
+
+#card-container {
+    /* background-color: #10767C; */
+    margin-bottom: 200px;
+    margin-top: 150px;
+    color: black;
+    width: 1200px;
+    text-align: center;
+}
+
+.card-item {
+    margin: 10px;
+    background-color: white;
+    width: 250px;
+    /* height: 350px; */
+    text-decoration: none;
+    color: black;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    /* box-sizing: border-box; */
+
+    display: inline-block; /* Change display to inline-block to ensure cards align horizontally */
+    transition: transform 0.3s ease;
+}
+
+.card-item img {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease; 
+}
+
+.card-item h2 {
+    /* font-family: "quicksand", sans-serif;
+    font-weight: 700;
+    font-style: normal; */
+    font-size: 20px;
+    margin-bottom: 3px;
+
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sub-header {
+    color: #aeaeae;
+    font-family: "futura-pt", sans-serif;
+    font-size: 15px;
+}
+
+.card-caption {
+    padding: 25px;
+
+    /* background-color: #10767C; */
+}
+
+.card-item h3 {
+    /* font-family: "quicksand", sans-serif;
+    font-weight: 400;
+    font-style: normal; */
+
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 16px;
+    margin: 0;
+}
+
+.card-item:hover {
+    transform: scale(1.1);
+    /* background-color: #10767C;
+    color: white; */
+}
+
+.card-item:hover img {
+    filter: grayscale(0%);
+}
+
+/* WIDE CARD CONTAINER */
+.wide-card-container {
+    /* margin-bottom: 200px; */
+    /* margin-top: 150px; */
+    /* color: white; */
+
+    margin: 75px;
+
+    width: 1000px;
+    /* text-align: center; */
+
+    background-color: black;
+}
+
+.wide-card-container-light {
+    /* margin-bottom: 200px; */
+    /* margin-top: 150px; */
+    /* color: white; */
+
+    margin: 75px;
+
+    width: 1000px;
+    /* text-align: center; */
+
+    background-color: white;
+    border: 1px solid black;
+}
+
+.wide-card-container h2 {
+    padding: 15px;
+    width: 365px;
+    margin: 0 auto; /* Add this line to center horizontally */
+    font-family: "yuji-boku", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    border: 1px solid black;
+    /* background-color: #6faeb1; */
+    background-color: rgb(210, 210, 210);
+    color: black;
+    text-align: center;
+
+    transform: translateY(-50%);
+}
+
+.wide-card-container-light h2 {
+    padding: 15px;
+    width: 365px;
+    margin: 0 auto; /* Add this line to center horizontally */
+    font-family: "yuji-boku", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    /* background-color: #6faeb1; */
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    transform: translateY(-50%);
+}
+
+.wide-card-container p {
+    margin: 50px;
+    margin-top: 0px;
+
+    background-color: black;
+    color: white;
+
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+    text-align: center;
+}
+
+.wide-card-container-light p {
+    margin: 50px;
+    margin-top: 0px;
+
+    background-color: white;
+    color: black;
+
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+    text-align: center;
+}
+
+.wide-card-container ul {
+    margin: 50px;
+    margin-top: 0px;
+
+    /* background-color: black; */
+    color: white;
+
+    /* font-family: "quicksand", sans-serif; */
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+    text-align: left;
+}
+
+.wide-card-container hr {
+    color: white;
+}
+
+#footer {
+    /* background-color: #10767C; */
+    color: gray;
+    text-align: center;
+
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    padding: 50px;
+    /* margin-top: 200px; */
+}
+
+/* We want to create a breakpoint */
+
+#bio-container {
+    /* background-color: #10767C; */
+    padding: 25px;
+    padding-bottom: 50px;
+    color: black;
+    text-align: center;
+}
+
+#bio-container img {
+    padding-bottom: 66px;
+}
+
+#bio-container p {
+    /* background-color: pink; */
+
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-left: 346px;
+    margin-right: 346px;
+    padding-top: 66px;
+    /* padding-bottom: 100px; */
+
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "yuji-boku", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  
+    > .col,
+    > [class*="col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+
+  #timeline h2 {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  #timeline h3 {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  #skills-container {
+    /* background-color: black; */
+    margin-top: 115px;
+    margin-bottom: 100px;
+
+  }
+
+  #skill-icons {
+    margin-left: 346px;
+    margin-right: 346px;
+
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+    /* background-color: blue; */
+  }
+
+  #skill-icons h2 {
+    /* background-color: #10767C; */
+    margin-top: 25px;
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  /* PORTFOLIO */
+  /* PORTFOLIO Intro Container */
+  .intro-container {
+        /* margin-top: 25px; */
+        color: black;
+        text-align: center;
+
+        /* background-color: #10767C; */
+
+        margin-top: 30px;
+    }
+
+    .introduction {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 50%;
+        /* background-color: #10767C; */
+    }
+
+    .introduction h1 {
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+
+    .intro-container h1 {
+        font-size: 30px;
+        /* margin-bottom: 50px; */
+    }
+
+    .intro-container p {
+        /* background-color: pink; */
+
+        /* font-family: "quicksand", sans-serif;
+        font-weight: 400;
+        font-style: normal; */
+        font-family: "futura-pt", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+        font-size: 20px;
+
+        text-align: center;
+
+        width: 800px;
+
+        margin-bottom: 50px;
+    }
+
+  /* URBAN SEEDS */
+  #icons-1 {
+    /* background-color: #10767C; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  video {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  #survey-items {
+    /* background-color: aquamarine; */
+    padding-bottom: 50px;
+  }
+
+  #survey-items ul {
+    /* background-color: red; */
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+    text-align: left;
+
+    /* width: 425px; */
+
+    /* margin-bottom: 75px; */
+  }
+
+  #survey-items li {
+    margin-bottom: 15px;
+  }
+
+/* #data-group-1 {
+    background-color: pink;
+} */
+
+/* #data-group-2 {
+    background-color: red;
+} */
+
+#data-container h2 {
+    font-weight: 700;
+    font-size: 30px;
+
+    color: black;
+}
+
+#data-container h3 {
+    font-weight: 400;
+    font-size: 25px;
+    
+    margin-bottom: 25px;
+}
+
+#data-container {
+    /* background-color: #10767C; */
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+
+    /* width: 1100px; */
+
+    /* padding-bottom: 50px; */
+    /* transform: scale(0.8);
+    transform-origin: top center;  */
+}
+
+.data-card {
+    background-color: white;
+    /* height: 300px; */
+    /* width: 250px; */
+    /* min-width: 300px; */
+
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.data-card h3 {
+    /* background-color: #10767C; */
+    font-family: "futura-pt", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+
+    padding-top: 20px;
+}
+
+.data-card p {
+    /* background-color: #10767C; */
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+
+    /* margin-bottom: -5px; */
+}
+
+.data-legend-element {
+    display: inline-block;
+}
+
+/* .data-card img {
+    height: 250px;
+    background-color: #10767C;
+} */
+
+/* .data-card:hover {
+    transform: scale(1.05);
+} */
+
+/* #line-chart-container {
+    background-color: #10767C;
+} */
+
+#more-from-esail {
+    background-color: #eeeeee;
+}
+
+.user-persona h2 {
+        
+    font-family: "futura-pt", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+.user-persona img {
+    margin-bottom: 50px;
+}
+
+.user-persona li {
+    text-align: left;
+
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+}
+
+/* #user-persona-text-container {
+    width: 375px;
+} */
+
+#pain-points-table {
+    background-color: #10767C;
+
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  /* Optional: Style for table cells */
+  td {
+    border: 1px solid #ddd; /* Border color for cells */
+    padding: 8px;
+    text-align: left;
+  }
+
+  /* @media screen and (max-width: 600px) {
+    #card-item {
+        transform: scale(0.85);
+
+        font-size: 12px;
+    }
+
+    #card-container {
+        margin-bottom: 200px;
+        margin-top: 150px;
+        color: black;
+
+    }
+    
+} */
+
+/* #mockup-container {
+   background-color: #10767C;
+} */
+
+#mockup-container img {
+    height: 400px;
+}
+
+#website-container {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    /* width: 1000px; */
+}
+
+#website-container h1 {
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.scroll-box {
+    width: 600px; /* Custom width */
+    height: 427px; /* Custom height */
+    overflow: auto; /* Add scroll bars if needed */
+    /* border: 1px solid #000; */
+  }  
+
+.brandbook {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    /* width: 1100px;
+    margin-top: 50px;
+    margin-bottom: 75px; */
+}
+
+#gap-slide-template {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+} 
+
+/* MODAL STYLING */
+/* Style the modal's background */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Style the modal content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+  }
+  
+  /* Add animation - zoom in the modal */
+  .modal-content {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+  /* Style the close button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Style the caption */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+
+  /* Custom CSS to ensure the flex children (the two bottom images) cover the available height */
+    /* .d-flex > .col-6 {
+        display: flex;
+    }
+    
+    .d-flex > .col-6 > img {
+        flex-shrink: 0;
+    } */
+
+    /* .aspect-ratio-box {
+        position: relative;
+        width: 100%;
+        padding-top: 50%;
+      } */
+      
+      /* .aspect-ratio-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+      } */
+      
+      /* .aspect-ratio-content img {
+        height: 100%;
+        width: auto;
+        object-fit: cover;
+      } */
+      
+
+    /* .img-fluid {
+        width: 100%;
+        height: auto;
+        display: block;
+    } */
+  
+    .flex-row {
+        display: flex;
+    }
+
+    .col-6.d-flex {
+        flex: 1;
+    }
+
+    .img-fluid.w-100.h-auto {
+        width: auto;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .photo-gallery {
+        display: flex;
+        gap: 20px;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #jumpstart-branding-section h2 {
+        margin-top: 25px;
+        font-family: "futura-pt", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+    }
+
+    #poppins p {
+        font-family: "poppins", sans-serif;
+        font-style: normal;
+        font-size: 20px;
+        color: #04034A;
+    }
+
+    #coquette p {
+        font-family: "coquette", sans-serif;
+        font-style: normal;
+        font-size: 20px;
+        color: #04034A;
+    }
+
+    #hi-fi-screens img {
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* MEDIA QUERIES */
+    /* Video */
+    /* We want a standard video size and standard video size breakpoints */
+    /* At ≥768px */
+    @media (max-width: 992px) {
+        video {
+            width: 500px;
+        }
+
+        #gap-slide-template img {
+            width: 500px;
+        } 
+
+        .right-paragraph {
+            margin-left: 0;
+            padding-top: 50px;
+        }
+
+        .left-paragraph {
+            margin-right: 0;
+            padding-bottom: 50px;
+        }
+    }

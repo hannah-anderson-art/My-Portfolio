@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'ocx5pev',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
+  </head>
+
+<body>
+
+  <nav class="my-custom-class">
+    <a href="index.html" id="logo-hover-group">
+      <div class="expanding-box" id="expanding-box"></div>
+      <div class="content">
+        <img src="images/HANNAH ANDERSON_black.png" height="75px">
+      </div>
+    </a>
+    <div id="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+    </div>
+  </nav>
+
+  <!-- JUMPSTART INTRO CONTAINER -->
+    <div class="center-div">
+      <div class="intro-container">
+        <h1 style="padding-bottom: 50px; font-size: 30px">JumpStart - UI Design</h1>
+        <p>Jumpstart falls in a blue ocean market with various opportunities. Existing apps in the market are heavily focused on maintenance tracking and are most beneficial to car owners with above-average car knowledge. The purpose of our app is to <strong>inform</strong> users about common car repairs through various forms of tutorials, <strong>translate</strong> codes used in OBD II devices, and <strong>enhance</strong> communication between car owners and mechanics.</p>
+    </div>
+    </div>
+
+    <!-- <div>
+      <img src="images/hero-section/hero-1.png" width="100%">
+    </div> -->
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/hero-section/hero-1.png" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="images/hero-section/hero-2.png" class="d-block w-100">
+        </div>
+      </div>
+    </div>
+
+  <div class="standard-section" style="padding-top: 100px;">
+    <div class="container text-center">
+      <video width="780" controls autoplay muted>
+        <source src="videos/jumpstart-promotional.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+      <div class="container text-center">
+        <div class="sub-header" style="padding-top: 50px;">video created by Camila Escobedo</div>
+      </div>
+  </div>
+
+  <div class="standard-section" style="background-color: #eEeEeE;">
+    <div class="container text-center">
+      <h1 style="font-size: 30px">User Research</h1>
+      <div class="row">
+        <div class="col">
+          <img src="images/54-percent.png" width="100px" style="padding-top: 50px;">
+          <p style="font-size: 20px; padding-top: 50px;">Feel intimidated when dealing with a mechanic</p>
+        </div>
+        <div class="col">
+          <img src="images/50-percent.png" width="100px" style="padding-top: 50px;">
+          <p style="font-size: 20px; padding-top: 50px;">Able to change oil, replace wiper blades, rotate tires, replace air filter, replace battery, replace headlights (doable car repairs)</p>
+        </div>
+        <div class="col">
+          <img src="images/19-percent.png" width="100px" style="padding-top: 50px;">
+          <p style="font-size: 20px; padding-top: 50px;">Feel confident they’re paying a fair price when they take their car to a mechanic</p>
+        </div>
+      </div>
+      <div>
+        <div class="my-custom-class center-div">
+          <div class="wide-card-container-light">
+            <h2>Survey</h2>
+            <p>From our user surveys, we learned that <strong style="color: #D75427">36%</strong> don’t know how to fix a flat tire, <strong style="color: #D75427">50%</strong> could not change the oil, <strong style="color: #D75427">25%</strong> don’t know how to jump start a car, and <strong style="color: #D75427">41%</strong> couldn’t even recognize a car engine from a photo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="standard-section">
+    <div id="myModal1" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content">
+      <div class="caption"></div>
+    </div>
+    <div class="container text-center">
+      <h1 style="font-size: 30px; padding-bottom: 50px;">Initial Design & Features</h1>
+      <div class="row" style="padding-bottom: 20px;">
+        <img class="myImg" src="images/miro-1.png" alt="Miro Board - App Flow 1" data-modal-target="#myModal1">
+      </div>
+      <div class="row">
+        <div class="photo-gallery">
+          <div class="column">
+            <div class="photo">
+              <img class="myImg" src="images/miro-2.png" alt="Miro Board - App Flow 2" data-modal-target="#myModal1">
+            </div>
+          </div>
+          <div class="column">
+            <div class="photo">
+              <img class="myImg" src="images/app-sketch.png" alt="Intial UI Sketches" data-modal-target="#myModal1">
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>  
+  </div>
+
+  <div class="standard-section" id="jumpstart-branding-section" style="background-color: #eeeeee;">
+    <div class="container text-center">
+      <h1 style="font-size: 30px; padding-bottom: 50px">Branding</h1>
+      <!-- ROW 1 - 2 COLS -->
+      <div class="row">
+        <div class="col">
+          <!-- <h2>Ideation</h2> -->
+          <div>
+            <!-- 1 COL -->
+            <div class="row justify-content-center">
+              <div class="col-auto">
+                <img src="images/ideation-sketches.png" width="400px">
+              </div>
+            </div>
+            <!-- 4 COLS -->
+            <div class="row justify-content-center">
+              <div class="d-flex justify-content-around" style="width: 300px;">
+                <div class="col">
+                  <img src="images/jumpstart-icons/asset1.png" height="40px">
+                </div>
+                <div class="col">
+                  <img src="images/jumpstart-icons/asset2.png" height="40px">
+                </div>
+                <div class="col">
+                  <img src="images/jumpstart-icons/asset3.png" height="40px">
+                </div>
+                <div class="col">
+                  <img src="images/jumpstart-icons/asset4.png" height="40px">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        
+        <!-- FINAL DESIGNS -->
+        <div class="col">
+          <!-- <h2>Final Design</h2> -->
+
+          <!-- 4 COLS -->
+            <div class="row justify-content-center">
+              <div class="d-flex justify-content-around" style="width: 410px; padding-top: 7%;">
+                <div class="col">
+                  <img src="images/jumpstart-icons/final-logo-1.png" height="75px">
+                </div>
+                <div class="col">
+                  <img src="images/jumpstart-icons/final-logo-2.png" height="75px">
+                </div>
+                <div class="col">
+                  <img src="images/jumpstart-icons/final-logo-3.png" height="75px">
+                </div>
+                <div class="col">
+                  <img src="images/jumpstart-icons/final-logo-4.png" height="75px">
+                </div>
+              </div>
+            </div>
+
+            <!-- 1 COL -->
+            <div class="row">
+              <div class="col">
+                <img src="images/jumpstart-icons/color-palette.png" alt="color palette" width="370px" style="padding-top: 7%;">
+              </div>
+            </div>
+            <!-- 1 COL -->
+            <div class="row">
+              <div class="col">
+                <img src="images/jumpstart-icons/final-logo-horizontal.png" alt="final horizontal logo" width="236px" style="padding-top: 7%;">
+              </div>
+            </div>
+
+        </div>
+
+        <!-- ROW 2 - 1 COL -->
+        <div class="col justify-content-center">
+          <!-- <h2>Fonts</h2> -->
+          <div class="d-flex justify-content-around" style="padding-top: 20px;">
+            <div class="col" id="poppins">
+              <p style="font-weight: 200;">Poppins Thin</p>
+              <p style="font-weight: 400;">Poppins Regular</p>
+              <p style="font-weight: 500;">Poppins Medium</p>
+              <p style="font-weight: 600;">Poppins Semibold</p>
+              <p style="font-weight: 700;">Poppins Bold</p>
+            </div>
+            <div class="col" id="coquette">
+              <p style="font-weight: 200;">Coquette Thin</p>
+              <p style="font-weight: 300;">Coquette Regular</p>
+              <p style="font-weight: 400;">Coquette Medium</p>
+              <p style="font-weight: 700;">Coquette Semibold</p>
+              <p style="font-weight: 800;">Coquette Bold</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ROW 2 - 1 COL -->
+      <!-- <div class="col"> -->
+        <!-- <h2>Fonts</h2> -->
+        <!-- <div class="row" style="padding-top: 20px;">
+          <div class="col" id="poppins">
+            <p style="font-weight: 200;">Poppins Thin</p>
+            <p style="font-weight: 400;">Poppins Regular</p>
+            <p style="font-weight: 500;">Poppins Medium</p>
+            <p style="font-weight: 600;">Poppins Semibold</p>
+            <p style="font-weight: 700;">Poppins Bold</p>
+          </div>
+          <div class="col" id="coquette">
+            <p style="font-weight: 200;">Coquette Thin</p>
+            <p style="font-weight: 300;">Coquette Regular</p>
+            <p style="font-weight: 400;">Coquette Medium</p>
+            <p style="font-weight: 700;">Coquette Semibold</p>
+            <p style="font-weight: 800;">Coquette Bold</p>
+          </div>
+        </div>
+      </div> -->
+
+    </div>
+  </div>
+
+  <div class="standard-section">
+    <div class="container text-center">
+      <h1 style="font-size: 30px; padding-bottom: 50px;">Hi-Fi Screens</h1>
+
+      <div class="row justify-content-center" id="hi-fi-screens" style="padding-bottom: 50px;">
+        <div class="d-flex justify-content-around" style="width: 1150px;">
+          <div class="col">
+            <img src="images/hifi_screens/Dashboard - Main Page.jpg" width="170px">
+          </div>
+          <div class="col">
+            <img src="images/hifi_screens/Connect - Zoom Out.png" width="170px">
+          </div>
+          <div class="col">
+            <img src="images/hifi_screens/OBD2 - Search Code.png" width="170px">
+          </div>
+          <div class="col">
+            <img src="images/hifi_screens/Repair.png" width="170px">
+          </div>
+          <div class="col">
+            <img src="images/hifi_screens/Profile-Figma.png" width="170px">
+          </div>
+        </div>
+      </div>
+
+      <h1 style="font-size: 30px; padding-bottom: 50px;">Prototyping</h1>
+      <div class="row">
+        <div class="col">
+          <img src="images/hifi_screens/prototyping.png" alt="prototyping" height="350">
+        </div>
+        <div class="col">
+          <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" height="350" width="600" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FBd1vJhlAJN0T4KIecRukGT%2FJumpstart%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DY7GzbF1xD0xWjTyH-1" allowfullscreen></iframe>      </div>
+
+    </div>  
+  </div>
+  </div>
+
+  <div class="standard-section">
+    <div class="container text-center">
+      <div class="row align-items-center">
+        <div class="col">
+          <h1 style="padding-bottom: 20px; font-size: 30px;">Brandbook</h1>
+          <div class="brandbook">
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/Jumpstart Brandbook/jumpstart-brandbook.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/Jumpstart Brandbook/jumpstart-brandbook2.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/Jumpstart Brandbook/jumpstart-brandbook3.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/Jumpstart Brandbook/jumpstart-brandbook4.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/Jumpstart Brandbook/jumpstart-brandbook5.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/Jumpstart Brandbook/jumpstart-brandbook6.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/Jumpstart Brandbook/jumpstart-brandbook7.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/Jumpstart Brandbook/jumpstart-brandbook8.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/Jumpstart Brandbook/jumpstart-brandbook9.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/Jumpstart Brandbook/jumpstart-brandbook10.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/Jumpstart Brandbook/jumpstart-brandbook11.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/Jumpstart Brandbook/jumpstart-brandbook12.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/Jumpstart Brandbook/jumpstart-brandbook13.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/Jumpstart Brandbook/jumpstart-brandbook14.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/Jumpstart Brandbook/jumpstart-brandbook15.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/Jumpstart Brandbook/jumpstart-brandbook16.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/Jumpstart Brandbook/jumpstart-brandbook17.png" class="d-block w-100">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <h1 style="font-size: 30px; padding-bottom: 20px;">Final Walkthrough</h2>
+          <video class="d-block w-100" controls autoplay muted>
+            <source src="videos/Jumpstart_Walkthrough.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+      <div class="sub-header" style="padding-top: 50px;">video created by Camila Escobedo</div>
+    </div> 
+  </div>
+
+  <div class="center-div" style="background-color: #eeeeee; padding-top: 50px;">
+    <div class="intro-container">
+        <h1 style="padding-bottom: 50px;">Reflections</h1>
+        <p>As my first UI design project, Jumpstart taught me a lot about Figma, components, and overall UI design practices. This project helped give me a comprehensive view of the design process, specifically for a mobile app, and gave me confidence in future projects I am continuing to work on. I thoroughly enjoyed it!</p>
+    </div>
+  </div>
+
+  <div id="footer" style="background-color: #eeeeee;">
+    Developed by Hannah Anderson
+  </div>
+
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+
+</html>
